@@ -24,6 +24,8 @@ services:
    - ./app:/root
   networks: 
    - icedatabase
+  ports: 
+   - 8080:8080
 
 
   

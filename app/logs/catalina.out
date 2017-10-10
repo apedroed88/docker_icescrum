@@ -66,3 +66,252 @@ iceScrum runs inside a Docker container so it cannot know its external URL. It s
 If you use a VM (e.g. Docker Machine) the docker host is the VM IP, otherwise it's localhost or your machine IP.
 To stop iceScrum, use docker stop. To restart, use docker restart.
 --------------------------------------------------------
+Oct 10, 2017 2:09:30 AM org.apache.coyote.http11.Http11NioProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Oct 10, 2017 2:09:30 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Oct 10, 2017 2:09:30 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Oct 10, 2017 2:09:30 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.43
+Oct 10, 2017 2:09:31 AM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+Oct 10, 2017 2:09:37 AM org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/icescrum] log
+INFO: Initializing AtmosphereFramework
+log4j:WARN No appenders could be found for logger (org.atmosphere.cpr.DefaultAsyncSupportResolver).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Oct 10, 2017 2:09:37 AM org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/icescrum] log
+INFO: AtmosphereFramework : Installed class org.atmosphere.cpr.SessionSupport
+Oct 10, 2017 2:09:37 AM org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/icescrum] log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+| Server Timezone: UTC
+--------------------------------------------------------
+Use configuration file from the iceScrum home: /root/.icescrum/config.groovy
+(*) grails.config.locations = [file:/root/.icescrum/config.groovy]
+--------------------------------------------------------
+
+| Log directory: /root/logs/
+Oct 10, 2017 2:09:39 AM org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/icescrum] log
+INFO: Initializing Spring root WebApplicationContext
+| Server Timezone: UTC
+--------------------------------------------------------
+Use configuration file from the iceScrum home: /root/.icescrum/config.groovy
+(*) grails.config.locations = [file:/root/.icescrum/config.groovy]
+--------------------------------------------------------
+...
+Configuring Spring Security Core ...
+... finished configuring Spring Security Core
+
+Configuring iceScrum...
+.................................
+Configuring Spring Security ACL ...
+... finished configuring Spring Security ACL
+
+...
+| Log directory: /root/logs/
+iceScrum Setup will be shown
+ 
+ 
+tt   tttttt   tttttt    EEEEE    EEEEEE    EEEE E     EE   EEEEEE EEEEE
+tt  tt   ttt ttt   tt  EE   EE  EE   EEE  EEE   E     EE  EE   EEEE   EEE
+tt tt     tt tt    tt  EE       E     EE  EE    E     EE  EE    EEE    EE
+tt t        tt   ttt   EEEE    EE         E     E     EE  E     EE     EE      ,
+tt t        tt ttt       EEEE  E         EE     E     EE  E     EE     EE ,,,,,,
+tt t        tt t            EE EE        EE     E     EE  E      E     E ,,,,,,,
+tt tt     tt tt     t EE    EE  E     EE EE     EE    EE  E      E       ,,,,,,
+tt  tt   ttt ttt   tt EEE   EE  EE   EEE EE     EE   EEE  E      E      ,,,,,,,
+t    tttttt    ttttt   EEEEEE    EEEEEE  EE      EEEEE    E      E     ,,,,,,,
+ 
+ 
+Version: 7.2.1 Pro - Build date: Tue Sep 26 12:32:04 UTC 2017
+Check our website for training, coaching or custom development: https://www.icescrum.com
+Try for free or buy your iceScrum Pro license and start using its nice features: https://www.icescrum.com/pricing
+ 
+--------------------------------------------------------
+iceScrum is running!
+iceScrum runs inside a Docker container so it cannot know its external URL. It should look like http://<docker-host>:<mapped-port>/icescrum.
+If you use a VM (e.g. Docker Machine) the docker host is the VM IP, otherwise it's localhost or your machine IP.
+To stop iceScrum, use docker stop. To restart, use docker restart.
+--------------------------------------------------------
+org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:265)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.kagilum.plugin.admin.services.SettingsService.testDbConnection(SettingsService.groovy:148)
+	at com.kagilum.plugin.admin.controllers.SetupController.testDbConnection(SetupController.groovy:143)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:62)
+	at grails.plugin.springsecurity.web.SecurityRequestHolderFilter.doFilter(SecurityRequestHolderFilter.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 16 more
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:438)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:222)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.kagilum.plugin.admin.services.SettingsService.testDbConnection(SettingsService.groovy:148)
+	at com.kagilum.plugin.admin.controllers.SetupController.testDbConnection(SetupController.groovy:143)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:62)
+	at grails.plugin.springsecurity.web.SecurityRequestHolderFilter.doFilter(SecurityRequestHolderFilter.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:438)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:222)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.kagilum.plugin.admin.services.SettingsService.testDbConnection(SettingsService.groovy:148)
+	at com.kagilum.plugin.admin.controllers.SetupController.testDbConnection(SetupController.groovy:143)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:62)
+	at grails.plugin.springsecurity.web.SecurityRequestHolderFilter.doFilter(SecurityRequestHolderFilter.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+org.postgresql.util.PSQLException: FATAL: password authentication failed for user "postgres"
+	at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:438)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:222)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.kagilum.plugin.admin.services.SettingsService.testDbConnection(SettingsService.groovy:148)
+	at com.kagilum.plugin.admin.controllers.SetupController.testDbConnection(SetupController.groovy:143)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:62)
+	at grails.plugin.springsecurity.web.SecurityRequestHolderFilter.doFilter(SecurityRequestHolderFilter.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+org.postgresql.util.PSQLException: Connection to localhost:5432 refused. Check that the hostname and port are correct and that the postmaster is accepting TCP/IP connections.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:265)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.kagilum.plugin.admin.services.SettingsService.testDbConnection(SettingsService.groovy:148)
+	at com.kagilum.plugin.admin.controllers.SetupController.testDbConnection(SetupController.groovy:143)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:62)
+	at grails.plugin.springsecurity.web.SecurityRequestHolderFilter.doFilter(SecurityRequestHolderFilter.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.ConnectException: Connection refused (Connection refused)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:350)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:206)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:188)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 16 more
+
+| Log directory: /root/logs/
+Oct 10, 2017 2:24:14 AM org.apache.coyote.http11.Http11NioProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Oct 10, 2017 2:24:14 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Oct 10, 2017 2:24:14 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Oct 10, 2017 2:24:14 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.43
+Oct 10, 2017 2:24:15 AM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+Oct 10, 2017 2:24:22 AM org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/icescrum] log
+INFO: Initializing AtmosphereFramework
+log4j:WARN No appenders could be found for logger (org.atmosphere.cpr.DefaultAsyncSupportResolver).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Oct 10, 2017 2:24:22 AM org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/icescrum] log
+INFO: AtmosphereFramework : Installed class org.atmosphere.cpr.SessionSupport
+Oct 10, 2017 2:24:22 AM org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/icescrum] log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+| Server Timezone: UTC
+--------------------------------------------------------
+Use configuration file from the iceScrum home: /root/.icescrum/config.groovy
+(*) grails.config.locations = [file:/root/.icescrum/config.groovy]
+--------------------------------------------------------
+
+| Log directory: /root/logs/
+Oct 10, 2017 2:24:23 AM org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/icescrum] log
+INFO: Initializing Spring root WebApplicationContext
+| Server Timezone: UTC
+--------------------------------------------------------
+Use configuration file from the iceScrum home: /root/.icescrum/config.groovy
+(*) grails.config.locations = [file:/root/.icescrum/config.groovy]
+--------------------------------------------------------
+...
+Configuring Spring Security Core ...
+... finished configuring Spring Security Core
+
+Configuring iceScrum...
+.................................
+Configuring Spring Security ACL ...
+... finished configuring Spring Security ACL
+
+...
+| Log directory: /root/logs/
+Creating admin...
+ 
+ 
+tt   tttttt   tttttt    EEEEE    EEEEEE    EEEE E     EE   EEEEEE EEEEE
+tt  tt   ttt ttt   tt  EE   EE  EE   EEE  EEE   E     EE  EE   EEEE   EEE
+tt tt     tt tt    tt  EE       E     EE  EE    E     EE  EE    EEE    EE
+tt t        tt   ttt   EEEE    EE         E     E     EE  E     EE     EE      ,
+tt t        tt ttt       EEEE  E         EE     E     EE  E     EE     EE ,,,,,,
+tt t        tt t            EE EE        EE     E     EE  E      E     E ,,,,,,,
+tt tt     tt tt     t EE    EE  E     EE EE     EE    EE  E      E       ,,,,,,
+tt  tt   ttt ttt   tt EEE   EE  EE   EEE EE     EE   EEE  E      E      ,,,,,,,
+t    tttttt    ttttt   EEEEEE    EEEEEE  EE      EEEEE    E      E     ,,,,,,,
+ 
+ 
+Version: 7.2.1 Pro - Build date: Tue Sep 26 12:32:04 UTC 2017
+Check our website for training, coaching or custom development: https://www.icescrum.com
+Try for free or buy your iceScrum Pro license and start using its nice features: https://www.icescrum.com/pricing
+ 
+--------------------------------------------------------
+iceScrum is running!
+iceScrum runs inside a Docker container so it cannot know its external URL. It should look like http://<docker-host>:<mapped-port>/icescrum.
+If you use a VM (e.g. Docker Machine) the docker host is the VM IP, otherwise it's localhost or your machine IP.
+To stop iceScrum, use docker stop. To restart, use docker restart.
+--------------------------------------------------------
