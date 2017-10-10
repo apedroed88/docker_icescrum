@@ -1,0 +1,235 @@
+2017-10-10 02:06:18,824 [localhost-startStop-1] INFO  grails.plugin.hibernate4.HibernatePluginSupport  - Set db generation strategy to 'update' for datasource DEFAULT
+2017-10-10 02:06:21,427 [localhost-startStop-1] INFO  grails.plugin.cache.CacheBeanPostProcessor  - postProcessBeanDefinitionRegistry start
+2017-10-10 02:06:21,432 [localhost-startStop-1] INFO  grails.plugin.cache.CacheBeanPostProcessor  - postProcessBeanFactory
+2017-10-10 02:06:22,844 [localhost-startStop-1] INFO  grails.plugin.cache.ehcache.GrailsEhCacheManagerFactoryBean  - Initializing EHCache CacheManager
+2017-10-10 02:06:25,308 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: acl_class
+2017-10-10 02:06:25,311 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: acl_entry
+2017-10-10 02:06:25,312 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: acl_object_identity
+2017-10-10 02:06:25,314 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: acl_sid
+2017-10-10 02:06:25,316 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: attachmentable_attachment
+2017-10-10 02:06:25,317 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: attachmentable_attachmentlink
+2017-10-10 02:06:25,318 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: authority
+2017-10-10 02:06:25,319 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: comment
+2017-10-10 02:06:25,320 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: comment_link
+2017-10-10 02:06:25,321 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_acceptance_test
+2017-10-10 02:06:25,322 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_acceptance_test_is_activity
+2017-10-10 02:06:25,323 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_activity
+2017-10-10 02:06:25,324 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_actor
+2017-10-10 02:06:25,325 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_availability
+2017-10-10 02:06:25,326 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_availability_preferences
+2017-10-10 02:06:25,328 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_backlog
+2017-10-10 02:06:25,329 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_bugtracker
+2017-10-10 02:06:25,331 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_bugtracker_import
+2017-10-10 02:06:25,332 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_bugtracker_sync
+2017-10-10 02:06:25,334 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_build
+2017-10-10 02:06:25,335 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_build_is_task
+2017-10-10 02:06:25,336 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_cliche
+2017-10-10 02:06:25,337 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_feature
+2017-10-10 02:06:25,338 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_feature_is_activity
+2017-10-10 02:06:25,339 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_invitation
+2017-10-10 02:06:25,341 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_mood
+2017-10-10 02:06:25,342 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_project
+2017-10-10 02:06:25,343 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_project_preferences
+2017-10-10 02:06:25,346 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_project_teams
+2017-10-10 02:06:25,347 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_release
+2017-10-10 02:06:25,349 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_scm_commit
+2017-10-10 02:06:25,350 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_scm_commit_is_task
+2017-10-10 02:06:25,351 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_simple_project_app
+2017-10-10 02:06:25,351 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_slack_preferences
+2017-10-10 02:06:25,352 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_sprint
+2017-10-10 02:06:25,352 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_story
+2017-10-10 02:06:25,353 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_story_is_activity
+2017-10-10 02:06:25,354 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_story_is_user
+2017-10-10 02:06:25,354 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_task
+2017-10-10 02:06:25,355 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_task_is_activity
+2017-10-10 02:06:25,356 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_task_is_user
+2017-10-10 02:06:25,357 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_tbn_tpls
+2017-10-10 02:06:25,358 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_team
+2017-10-10 02:06:25,359 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_team_members
+2017-10-10 02:06:25,360 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_template
+2017-10-10 02:06:25,361 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_timebox
+2017-10-10 02:06:25,362 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_timebox_is_activity
+2017-10-10 02:06:25,363 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_up_widgets
+2017-10-10 02:06:25,364 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_up_window
+2017-10-10 02:06:25,365 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user
+2017-10-10 02:06:25,366 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user_preferences
+2017-10-10 02:06:25,372 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user_preferences_menu
+2017-10-10 02:06:25,373 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user_preferences_menu_hidden
+2017-10-10 02:06:25,374 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user_tokens
+2017-10-10 02:06:25,375 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: tag_links
+2017-10-10 02:06:25,375 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: tags
+2017-10-10 02:06:25,377 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: user_authority
+2017-10-10 02:06:25,378 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: acl_class
+2017-10-10 02:06:25,379 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: acl_entry
+2017-10-10 02:06:25,380 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: acl_object_identity
+2017-10-10 02:06:25,381 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: acl_sid
+2017-10-10 02:06:25,382 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: attachmentable_attachment
+2017-10-10 02:06:25,383 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: attachmentable_attachmentlink
+2017-10-10 02:06:25,384 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: authority
+2017-10-10 02:06:25,385 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: comment
+2017-10-10 02:06:25,386 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: comment_link
+2017-10-10 02:06:25,386 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_acceptance_test
+2017-10-10 02:06:25,387 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_acceptance_test_is_activity
+2017-10-10 02:06:25,388 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_activity
+2017-10-10 02:06:25,388 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_actor
+2017-10-10 02:06:25,389 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_availability
+2017-10-10 02:06:25,390 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_availability_preferences
+2017-10-10 02:06:25,391 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_backlog
+2017-10-10 02:06:25,392 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_bugtracker
+2017-10-10 02:06:25,392 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_bugtracker_import
+2017-10-10 02:06:25,394 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_bugtracker_sync
+2017-10-10 02:06:25,395 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_build
+2017-10-10 02:06:25,396 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_build_is_task
+2017-10-10 02:06:25,396 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_cliche
+2017-10-10 02:06:25,397 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_feature
+2017-10-10 02:06:25,398 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_feature_is_activity
+2017-10-10 02:06:25,399 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_invitation
+2017-10-10 02:06:25,400 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_mood
+2017-10-10 02:06:25,400 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_project
+2017-10-10 02:06:25,401 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_project_preferences
+2017-10-10 02:06:25,402 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_project_teams
+2017-10-10 02:06:25,403 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_release
+2017-10-10 02:06:25,404 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_scm_commit
+2017-10-10 02:06:25,404 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_scm_commit_is_task
+2017-10-10 02:06:25,405 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_simple_project_app
+2017-10-10 02:06:25,406 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_slack_preferences
+2017-10-10 02:06:25,406 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_sprint
+2017-10-10 02:06:25,407 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_story
+2017-10-10 02:06:25,408 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_story_is_activity
+2017-10-10 02:06:25,408 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_story_is_user
+2017-10-10 02:06:25,409 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_task
+2017-10-10 02:06:25,409 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_task_is_activity
+2017-10-10 02:06:25,410 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_task_is_user
+2017-10-10 02:06:25,410 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_tbn_tpls
+2017-10-10 02:06:25,411 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_team
+2017-10-10 02:06:25,411 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_team_members
+2017-10-10 02:06:25,412 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_template
+2017-10-10 02:06:25,412 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_timebox
+2017-10-10 02:06:25,413 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_timebox_is_activity
+2017-10-10 02:06:25,414 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_up_widgets
+2017-10-10 02:06:25,414 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_up_window
+2017-10-10 02:06:25,415 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user
+2017-10-10 02:06:25,416 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user_preferences
+2017-10-10 02:06:25,416 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user_preferences_menu
+2017-10-10 02:06:25,417 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user_preferences_menu_hidden
+2017-10-10 02:06:25,418 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user_tokens
+2017-10-10 02:06:25,418 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: tag_links
+2017-10-10 02:06:25,419 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: tags
+2017-10-10 02:06:25,420 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: user_authority
+2017-10-10 02:06:25,420 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: acl_class
+2017-10-10 02:06:25,421 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: acl_entry
+2017-10-10 02:06:25,422 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: acl_object_identity
+2017-10-10 02:06:25,422 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: acl_sid
+2017-10-10 02:06:25,423 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: attachmentable_attachment
+2017-10-10 02:06:25,423 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: attachmentable_attachmentlink
+2017-10-10 02:06:25,424 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: authority
+2017-10-10 02:06:25,425 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: comment
+2017-10-10 02:06:25,425 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: comment_link
+2017-10-10 02:06:25,426 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_acceptance_test
+2017-10-10 02:06:25,426 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_acceptance_test_is_activity
+2017-10-10 02:06:25,427 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_activity
+2017-10-10 02:06:25,428 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_actor
+2017-10-10 02:06:25,429 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_availability
+2017-10-10 02:06:25,429 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_availability_preferences
+2017-10-10 02:06:25,430 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_backlog
+2017-10-10 02:06:25,431 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_bugtracker
+2017-10-10 02:06:25,431 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_bugtracker_import
+2017-10-10 02:06:25,432 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_bugtracker_sync
+2017-10-10 02:06:25,432 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_build
+2017-10-10 02:06:25,433 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_build_is_task
+2017-10-10 02:06:25,433 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_cliche
+2017-10-10 02:06:25,434 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_feature
+2017-10-10 02:06:25,434 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_feature_is_activity
+2017-10-10 02:06:25,435 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_invitation
+2017-10-10 02:06:25,436 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_mood
+2017-10-10 02:06:25,436 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_project
+2017-10-10 02:06:25,437 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_project_preferences
+2017-10-10 02:06:25,437 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_project_teams
+2017-10-10 02:06:25,438 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_release
+2017-10-10 02:06:25,438 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_scm_commit
+2017-10-10 02:06:25,439 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_scm_commit_is_task
+2017-10-10 02:06:25,439 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_simple_project_app
+2017-10-10 02:06:25,440 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_slack_preferences
+2017-10-10 02:06:25,440 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_sprint
+2017-10-10 02:06:25,440 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_story
+2017-10-10 02:06:25,441 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_story_is_activity
+2017-10-10 02:06:25,442 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_story_is_user
+2017-10-10 02:06:25,443 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_task
+2017-10-10 02:06:25,443 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_task_is_activity
+2017-10-10 02:06:25,444 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_task_is_user
+2017-10-10 02:06:25,445 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_tbn_tpls
+2017-10-10 02:06:25,445 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_team
+2017-10-10 02:06:25,446 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_team_members
+2017-10-10 02:06:25,447 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_template
+2017-10-10 02:06:25,447 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_timebox
+2017-10-10 02:06:25,448 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_timebox_is_activity
+2017-10-10 02:06:25,448 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_up_widgets
+2017-10-10 02:06:25,449 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_up_window
+2017-10-10 02:06:25,449 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user
+2017-10-10 02:06:25,450 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user_preferences
+2017-10-10 02:06:25,450 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user_preferences_menu
+2017-10-10 02:06:25,451 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user_preferences_menu_hidden
+2017-10-10 02:06:25,451 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: is_user_tokens
+2017-10-10 02:06:25,452 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: tag_links
+2017-10-10 02:06:25,453 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: tags
+2017-10-10 02:06:25,454 [localhost-startStop-1] INFO  java.sql.DatabaseMetaData  - HHH000262: Table not found: user_authority
+2017-10-10 02:06:26,151 [localhost-startStop-1] WARN  net.sf.ehcache.config.ConfigurationFactory  - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/tmp/standalone-war/embedded6389854492845640101-exploded-1507601162079/WEB-INF/lib/ehcache-2.9.0.jar!/ehcache-failsafe.xml
+2017-10-10 02:06:35,305 [localhost-startStop-1] INFO  CacheHeadersGrailsPlugin  - Caching enabled in Config: true
+2017-10-10 02:06:36,070 [localhost-startStop-1] INFO  grails.plugin.databasemigration.MigrationRunner  - updateOnStart enabled for 'dataSource'
+2017-10-10 02:06:36,984 [localhost-startStop-1] INFO  grails.plugin.databasemigration.MigrationRunner  - Migrations detected for 'dataSource': [changelog.groovy]
+2017-10-10 02:06:36,988 [localhost-startStop-1] INFO  grails.plugin.databasemigration.MigrationRunner  - Running script 'changelog.groovy'
+2017-10-10 02:06:37,015 [localhost-startStop-1] INFO  liquibase  - Successfully acquired change log lock
+2017-10-10 02:06:37,608 [localhost-startStop-1] INFO  liquibase  - Creating database history table with name: DATABASECHANGELOG
+2017-10-10 02:06:37,614 [localhost-startStop-1] INFO  liquibase  - Reading from DATABASECHANGELOG
+2017-10-10 02:06:37,660 [localhost-startStop-1] INFO  liquibase  - ChangeSet changelog-promoteVersion.groovy::user_preferences_reset_displayWhatsNew_7.2.1Pro::vbarrier ran successfully in 31ms
+2017-10-10 02:06:37,670 [localhost-startStop-1] INFO  liquibase  - Marking ChangeSet: changelog-promoteVersion.groovy::user_preferences_reset_displayWhatsNew_mssql_7.2.1Pro::vbarrier::(Checksum: 3:31f6b2a4aabd5120e45892b2601b5ff7) ran despite precondition failure due to onFail='MARK_RAN': 
+          changelog.groovy : DBMS Precondition failed: expected mssql, got h2
+
+2017-10-10 02:06:37,673 [localhost-startStop-1] INFO  liquibase  - Marking ChangeSet: changelog-promoteVersion.groovy::user_preferences_reset_displayWhatsNew_oracle_7.2.1Pro::vbarrier::(Checksum: 3:c31ab3aa91c017799bb9b50f4bef36d2) ran despite precondition failure due to onFail='MARK_RAN': 
+          changelog.groovy : DBMS Precondition failed: expected oracle, got h2
+
+2017-10-10 02:06:37,986 [localhost-startStop-1] INFO  liquibase  - Marking ChangeSet: changelog-7-0-2.groovy::is_task-name-dropUniqueConstraint::noullet::(Checksum: 3:3710c542c6e0ff62b15e0104c4023fd9) ran despite precondition failure due to onFail='MARK_RAN': 
+          changelog.groovy : Index unique_nameistask does not exist
+          changelog.groovy : Index unique_nameistask_index_a does not exist
+
+2017-10-10 02:06:37,992 [localhost-startStop-1] INFO  liquibase  - Marking ChangeSet: changelog-7-0-6.groovy::drop_webservices_columnn::vbarrier::(Checksum: 3:8af0bdf1af4f644326476532b61d8127) ran despite precondition failure due to onFail='MARK_RAN': 
+          changelog.groovy : Column 'webservices' does not exist
+
+2017-10-10 02:06:38,010 [localhost-startStop-1] INFO  liquibase  - ChangeSet changelog-7-1.groovy::add_notnull_constraint_backlog_chart_type_v2::vbarrier ran successfully in 16ms
+2017-10-10 02:06:38,015 [localhost-startStop-1] INFO  liquibase  - Marking ChangeSet: changelog-7-1.groovy::drop_on_right_columnn::vbarrier::(Checksum: 3:3248631b9729791f8f5841899bec87f9) ran despite precondition failure due to onFail='MARK_RAN': 
+          changelog.groovy : Column 'on_right' does not exist
+
+2017-10-10 02:06:38,030 [localhost-startStop-1] INFO  grails.plugin.databasemigration.DslBuilder  - Migrate sprints attachments count (please wait, can take a while..) 0 left
+2017-10-10 02:06:38,044 [localhost-startStop-1] INFO  liquibase  - ChangeSet changelog-7-1-1.groovy::add_notnull_constraint_attachments_comments_count_is_sprint::vbarrier ran successfully in 28ms
+2017-10-10 02:06:38,050 [localhost-startStop-1] INFO  grails.plugin.databasemigration.DslBuilder  - Migrate releases attachments count (please wait, can take a while..) 0 left
+2017-10-10 02:06:38,064 [localhost-startStop-1] INFO  liquibase  - ChangeSet changelog-7-1-1.groovy::add_notnull_constraint_attachments_comments_count_is_release::vbarrier ran successfully in 18ms
+2017-10-10 02:06:38,070 [localhost-startStop-1] INFO  grails.plugin.databasemigration.DslBuilder  - Migrate projects attachments count (please wait, can take a while..) 0 left
+2017-10-10 02:06:38,103 [localhost-startStop-1] INFO  liquibase  - ChangeSet changelog-7-1-1.groovy::add_notnull_constraint_attachments_comments_count_is_project::vbarrier ran successfully in 38ms
+2017-10-10 02:06:38,110 [localhost-startStop-1] INFO  grails.plugin.databasemigration.DslBuilder  - Migrate features attachments / comments count (please wait, can take a while..) 0 left
+2017-10-10 02:06:38,131 [localhost-startStop-1] INFO  liquibase  - ChangeSet changelog-7-1-1.groovy::add_notnull_constraint_attachments_comments_count_is_feature::vbarrier ran successfully in 26ms
+2017-10-10 02:06:38,137 [localhost-startStop-1] INFO  grails.plugin.databasemigration.DslBuilder  - Migrate stories attachments / comments count (please wait, can take a while..) 0 left
+2017-10-10 02:06:38,165 [localhost-startStop-1] INFO  liquibase  - ChangeSet changelog-7-1-1.groovy::add_notnull_constraint_attachments_comments_count_is_story::vbarrier ran successfully in 32ms
+2017-10-10 02:06:38,172 [localhost-startStop-1] INFO  grails.plugin.databasemigration.DslBuilder  - Migrate tasks attachments / comments count (please wait, can take a while..) 0 left
+2017-10-10 02:06:38,195 [localhost-startStop-1] INFO  liquibase  - ChangeSet changelog-7-1-1.groovy::add_notnull_constraint_attachments_comments_count_is_task::vbarrier ran successfully in 28ms
+2017-10-10 02:06:38,209 [localhost-startStop-1] INFO  grails.plugin.databasemigration.DslBuilder  - Generate default timebox note templates for projects (please wait, can take a while..) 0 left
+2017-10-10 02:06:38,214 [localhost-startStop-1] INFO  liquibase  - ChangeSet changelog-7-2.groovy::add_default_timeboxNote_template::vbarrier ran successfully in 17ms
+2017-10-10 02:06:38,216 [localhost-startStop-1] INFO  liquibase  - Marking ChangeSet: changelog-7-2.groovy::add_default_timeboxNote_template_postgres::vbarrier::(Checksum: 3:c31ab3aa91c017799bb9b50f4bef36d2) ran despite precondition failure due to onFail='MARK_RAN': 
+          changelog.groovy : DBMS Precondition failed: expected postgresql, got h2
+
+2017-10-10 02:06:38,219 [localhost-startStop-1] INFO  liquibase  - Successfully released change log lock
+2017-10-10 02:06:38,752 [localhost-startStop-1] INFO  net.sf.ehcache.pool.sizeof.filter.AnnotationSizeOfFilter  - Using regular expression provided through VM argument net.sf.ehcache.pool.sizeof.ignore.pattern for IgnoreSizeOf annotation : ^.*cache\..*IgnoreSizeOf$
+2017-10-10 02:06:38,756 [localhost-startStop-1] INFO  net.sf.ehcache.pool.sizeof.AgentLoader  - Unavailable or unrecognised attach API : java.lang.ClassNotFoundException: com.sun.tools.attach.VirtualMachine
+2017-10-10 02:06:38,770 [localhost-startStop-1] INFO  net.sf.ehcache.pool.sizeof.JvmInformation  - Detected JVM data model settings of: 64-Bit OpenJDK JVM with Compressed OOPs
+2017-10-10 02:06:38,770 [localhost-startStop-1] INFO  net.sf.ehcache.pool.impl.DefaultSizeOfEngine  - using Unsafe sizeof engine
+2017-10-10 02:06:38,776 [localhost-startStop-1] INFO  net.sf.ehcache.pool.impl.DefaultSizeOfEngine  - using Unsafe sizeof engine
+2017-10-10 02:06:38,782 [localhost-startStop-1] INFO  grails.plugin.cache.CacheGrailsPlugin  - Clearing cache grailsTemplatesCache
+2017-10-10 02:06:38,788 [localhost-startStop-1] INFO  grails.plugin.cache.CacheGrailsPlugin  - Clearing cache grailsBlocksCache
+2017-10-10 02:06:38,796 [localhost-startStop-1] INFO  org.codehaus.groovy.grails.web.context.GrailsConfigUtils  - [GrailsContextLoader] Grails application loaded.
+2017-10-10 02:06:38,936 [localhost-startStop-1] INFO  CacheHeadersGrailsPlugin  - Caching enabled in Config: true
+2017-10-10 02:06:39,184 [localhost-startStop-1] INFO  net.sf.ehcache.pool.impl.DefaultSizeOfEngine  - using Unsafe sizeof engine
+2017-10-10 02:06:39,187 [localhost-startStop-1] INFO  net.sf.ehcache.pool.impl.DefaultSizeOfEngine  - using Unsafe sizeof engine
+2017-10-10 02:06:39,255 [localhost-startStop-1] WARN  net.sf.ehcache.DiskStorePathManager  - diskStorePath '/tmp' is already used by an existing CacheManager either in the same VM or in a different process.
+The diskStore path for this CacheManager will be set to /tmp/ehcache_auto_created6430568052192060076diskstore.
+To avoid this warning consider using the CacheManager factory methods to create a singleton CacheManager or specifying a separate ehcache configuration (ehcache.xml) for each CacheManager instance.
+2017-10-10 02:06:39,565 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/icescrum]  - Initializing Spring FrameworkServlet 'grails'
+2017-10-10 02:06:39,604 [main] INFO  org.apache.coyote.http11.Http11NioProtocol  - Starting ProtocolHandler ["http-nio-8080"]

@@ -1,4 +1,11 @@
 version: '3'
+
+networks: 
+ icedatabase:
+
+
+
+
 services: 
  db:
   image: icescrum/postgres

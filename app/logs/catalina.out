@@ -1,0 +1,68 @@
+Oct 10, 2017 2:06:04 AM org.apache.coyote.http11.Http11NioProtocol init
+INFO: Initializing ProtocolHandler ["http-nio-8080"]
+Oct 10, 2017 2:06:04 AM org.apache.tomcat.util.net.NioSelectorPool getSharedSelector
+INFO: Using a shared selector for servlet write/read
+Oct 10, 2017 2:06:04 AM org.apache.catalina.core.StandardService startInternal
+INFO: Starting service Tomcat
+Oct 10, 2017 2:06:04 AM org.apache.catalina.core.StandardEngine startInternal
+INFO: Starting Servlet Engine: Apache Tomcat/8.0.43
+Oct 10, 2017 2:06:04 AM org.apache.catalina.startup.ContextConfig getDefaultWebXmlFragment
+INFO: No global web.xml found
+Oct 10, 2017 2:06:11 AM org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/icescrum] log
+INFO: Initializing AtmosphereFramework
+log4j:WARN No appenders could be found for logger (org.atmosphere.cpr.DefaultAsyncSupportResolver).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Oct 10, 2017 2:06:11 AM org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/icescrum] log
+INFO: AtmosphereFramework : Installed class org.atmosphere.cpr.SessionSupport
+Oct 10, 2017 2:06:11 AM org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/icescrum] log
+INFO: No Spring WebApplicationInitializer types detected on classpath
+| Server Timezone: UTC
+--------------------------------------------------------
+Use configuration file from the iceScrum home: /root/.icescrum/config.groovy
+(*) grails.config.locations = [file:/root/.icescrum/config.groovy]
+--------------------------------------------------------
+
+| Log directory: /root/logs/
+Oct 10, 2017 2:06:13 AM org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/icescrum] log
+INFO: Initializing Spring root WebApplicationContext
+| Server Timezone: UTC
+--------------------------------------------------------
+Use configuration file from the iceScrum home: /root/.icescrum/config.groovy
+(*) grails.config.locations = [file:/root/.icescrum/config.groovy]
+--------------------------------------------------------
+...
+Configuring Spring Security Core ...
+... finished configuring Spring Security Core
+
+Configuring iceScrum...
+.................................
+Configuring Spring Security ACL ...
+... finished configuring Spring Security ACL
+
+...
+| Log directory: /root/logs/
+iceScrum Setup will be shown
+ 
+ 
+tt   tttttt   tttttt    EEEEE    EEEEEE    EEEE E     EE   EEEEEE EEEEE
+tt  tt   ttt ttt   tt  EE   EE  EE   EEE  EEE   E     EE  EE   EEEE   EEE
+tt tt     tt tt    tt  EE       E     EE  EE    E     EE  EE    EEE    EE
+tt t        tt   ttt   EEEE    EE         E     E     EE  E     EE     EE      ,
+tt t        tt ttt       EEEE  E         EE     E     EE  E     EE     EE ,,,,,,
+tt t        tt t            EE EE        EE     E     EE  E      E     E ,,,,,,,
+tt tt     tt tt     t EE    EE  E     EE EE     EE    EE  E      E       ,,,,,,
+tt  tt   ttt ttt   tt EEE   EE  EE   EEE EE     EE   EEE  E      E      ,,,,,,,
+t    tttttt    ttttt   EEEEEE    EEEEEE  EE      EEEEE    E      E     ,,,,,,,
+ 
+ 
+Version: 7.2.1 Pro - Build date: Tue Sep 26 12:32:04 UTC 2017
+Check our website for training, coaching or custom development: https://www.icescrum.com
+Try for free or buy your iceScrum Pro license and start using its nice features: https://www.icescrum.com/pricing
+ 
+--------------------------------------------------------
+iceScrum is running!
+iceScrum runs inside a Docker container so it cannot know its external URL. It should look like http://<docker-host>:<mapped-port>/icescrum.
+If you use a VM (e.g. Docker Machine) the docker host is the VM IP, otherwise it's localhost or your machine IP.
+To stop iceScrum, use docker stop. To restart, use docker restart.
+--------------------------------------------------------
