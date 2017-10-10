@@ -2,7 +2,7 @@ version: '3'
 services: 
  db:
   image: icescrum/postgres
-  container_name: ice_database
+  container_name: icescrum_database
   environment: 
    - POSTGRES_PASSWORD=Silver99
   volumes: 
@@ -12,6 +12,9 @@ services:
 
  app:
   image: icescrum/icescrum
-  container_name: ice_scrum
+  container_name: icescrum
+  volumes: 
+   - ./app:/root
+
 
   
